@@ -61,7 +61,9 @@ class Author:
 		
 		
 		
-author1 = Author()
+author1 = Author(name='Andrzej Sapkowski')
 book1 = Book(123,400,99,"12-12-2020",authors = [author1])
+
+print(book1.authors[0].name)
 
 

@@ -18,7 +18,7 @@ class PojazdMechaniczny(Pojazd):
 		return self.engine
 
 
-class PojazdTowarowy:
+class PojazdTowarowy():
     def __init__(self):
         self.cargo = None
 
